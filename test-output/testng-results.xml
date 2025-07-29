@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-29T19:21:43 IST" name="SauceDemoTestSuite" finished-at="2025-07-29T19:21:52 IST" duration-ms="8630">
+  <suite started-at="2025-07-29T20:54:48 IST" name="SauceDemoTestSuite" finished-at="2025-07-29T20:55:09 IST" duration-ms="21484">
     <groups>
     </groups>
-    <test started-at="2025-07-29T19:21:43 IST" name="AddToCartTest" finished-at="2025-07-29T19:21:52 IST" duration-ms="8630">
+    <test started-at="2025-07-29T20:54:48 IST" name="Task 1: Add To Cart" finished-at="2025-07-29T20:55:04 IST" duration-ms="15833">
       <class name="tests.AddToCartTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.AddToCartTest@a1153bc]" started-at="2025-07-29T19:21:43 IST" name="setUp" finished-at="2025-07-29T19:21:47 IST" duration-ms="3638" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.AddToCartTest@4c583ecf]" started-at="2025-07-29T20:54:48 IST" name="setUp" finished-at="2025-07-29T20:54:54 IST" duration-ms="5920" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testAddFirstProductToCart(java.lang.String)[pri:0, instance:tests.AddToCartTest@a1153bc]" started-at="2025-07-29T19:21:47 IST" name="testAddFirstProductToCart" data-provider="sortOptions" finished-at="2025-07-29T19:21:47 IST" duration-ms="430" status="PASS">
+        <test-method signature="testAddFirstProductToCart(java.lang.String)[pri:0, instance:tests.AddToCartTest@4c583ecf]" started-at="2025-07-29T20:54:54 IST" name="testAddFirstProductToCart" data-provider="sortOptions" finished-at="2025-07-29T20:54:54 IST" duration-ms="445" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,15 +22,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddFirstProductToCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AddToCartTest@a1153bc]" started-at="2025-07-29T19:21:47 IST" name="tearDown" finished-at="2025-07-29T19:21:48 IST" duration-ms="165" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AddToCartTest@4c583ecf]" started-at="2025-07-29T20:54:54 IST" name="tearDown" finished-at="2025-07-29T20:54:54 IST" duration-ms="146" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.AddToCartTest@a1153bc]" started-at="2025-07-29T19:21:48 IST" name="setUp" finished-at="2025-07-29T19:21:49 IST" duration-ms="1535" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.AddToCartTest@4c583ecf]" started-at="2025-07-29T20:54:54 IST" name="setUp" finished-at="2025-07-29T20:54:58 IST" duration-ms="4166" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testAddFirstProductToCart(java.lang.String)[pri:0, instance:tests.AddToCartTest@a1153bc]" started-at="2025-07-29T19:21:49 IST" name="testAddFirstProductToCart" data-provider="sortOptions" finished-at="2025-07-29T19:21:50 IST" duration-ms="435" status="PASS">
+        <test-method signature="testAddFirstProductToCart(java.lang.String)[pri:0, instance:tests.AddToCartTest@4c583ecf]" started-at="2025-07-29T20:54:58 IST" name="testAddFirstProductToCart" data-provider="sortOptions" finished-at="2025-07-29T20:54:59 IST" duration-ms="410" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,15 +41,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddFirstProductToCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AddToCartTest@a1153bc]" started-at="2025-07-29T19:21:50 IST" name="tearDown" finished-at="2025-07-29T19:21:50 IST" duration-ms="160" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AddToCartTest@4c583ecf]" started-at="2025-07-29T20:54:59 IST" name="tearDown" finished-at="2025-07-29T20:54:59 IST" duration-ms="137" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.AddToCartTest@a1153bc]" started-at="2025-07-29T19:21:50 IST" name="setUp" finished-at="2025-07-29T19:21:51 IST" duration-ms="1648" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.AddToCartTest@4c583ecf]" started-at="2025-07-29T20:54:59 IST" name="setUp" finished-at="2025-07-29T20:55:03 IST" duration-ms="4053" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testAddFirstProductToCart(java.lang.String)[pri:0, instance:tests.AddToCartTest@a1153bc]" started-at="2025-07-29T19:21:51 IST" name="testAddFirstProductToCart" data-provider="sortOptions" finished-at="2025-07-29T19:21:52 IST" duration-ms="457" status="PASS">
+        <test-method signature="testAddFirstProductToCart(java.lang.String)[pri:0, instance:tests.AddToCartTest@4c583ecf]" started-at="2025-07-29T20:55:03 IST" name="testAddFirstProductToCart" data-provider="sortOptions" finished-at="2025-07-29T20:55:03 IST" duration-ms="389" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -60,11 +60,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddFirstProductToCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AddToCartTest@a1153bc]" started-at="2025-07-29T19:21:52 IST" name="tearDown" finished-at="2025-07-29T19:21:52 IST" duration-ms="126" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AddToCartTest@4c583ecf]" started-at="2025-07-29T20:55:03 IST" name="tearDown" finished-at="2025-07-29T20:55:04 IST" duration-ms="137" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.AddToCartTest -->
-    </test> <!-- AddToCartTest -->
+    </test> <!-- Task 1: Add To Cart -->
+    <test started-at="2025-07-29T20:55:04 IST" name="Task 2: Extract Top 3 Products" finished-at="2025-07-29T20:55:09 IST" duration-ms="5636">
+      <class name="tests.ExtractSortedProductsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ExtractSortedProductsTest@bcec361]" started-at="2025-07-29T20:55:04 IST" name="setUp" finished-at="2025-07-29T20:55:09 IST" duration-ms="5196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="extractTop3SortedByNameZtoA()[pri:0, instance:tests.ExtractSortedProductsTest@bcec361]" started-at="2025-07-29T20:55:09 IST" name="extractTop3SortedByNameZtoA" finished-at="2025-07-29T20:55:09 IST" duration-ms="305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extractTop3SortedByNameZtoA -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ExtractSortedProductsTest@bcec361]" started-at="2025-07-29T20:55:09 IST" name="tearDown" finished-at="2025-07-29T20:55:09 IST" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ExtractSortedProductsTest -->
+    </test> <!-- Task 2: Extract Top 3 Products -->
   </suite> <!-- SauceDemoTestSuite -->
 </testng-results>

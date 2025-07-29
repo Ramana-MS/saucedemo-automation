@@ -1,9 +1,16 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="SauceDemoTestSuite">
 
-<suite name="SauceDemoTestSuite" verbose="1">
-  <test name="AddToCartTest">
+  <test name="Task 1: Add To Cart">
     <classes>
       <class name="tests.AddToCartTest"/>
     </classes>
   </test>
+
+  <test name="Task 2: Extract Top 3 Products">
+    <classes>
+      <class name="tests.ExtractSortedProductsTest"/>
+    </classes>
+  </test>
+
 </suite>

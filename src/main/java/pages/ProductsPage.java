@@ -36,5 +36,17 @@ public class ProductsPage {
     public void goToCart() {
         driver.findElement(cartIcon).click();
     }
+    public void printTop3ProductNamesAndPrices() {
+        List<WebElement> names = driver.findElements(productNames);
+        List<WebElement> prices = driver.findElements(productPrices);
+
+        System.out.println("🔹 Top 3 Products After Sorting:");
+        for (int i = 0; i < Math.min(3, names.size()); i++) {
+            String name = names.get(i).getText();
+            String price = prices.get(i).getText();
+            System.out.println("Name: " + name + " | $ Price: " + price);
+        }
+    }
+
 }
 
